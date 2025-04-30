@@ -1,0 +1,9 @@
+8 0.9 810
+blast 180 1 7 104857
+drawgram 30 0
+clustalw 300 1 6 4096
+blast 180 1 2 104857
+drawgram 30 0
+dnapars 30 1 1 4096
+protpars 30 1 4 4096
+clustalw 300 1 5 4096

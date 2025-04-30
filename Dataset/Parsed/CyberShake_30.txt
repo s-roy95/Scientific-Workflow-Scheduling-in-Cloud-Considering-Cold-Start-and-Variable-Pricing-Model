@@ -1,0 +1,31 @@
+30 0.9 0
+ZipPSA 0.06 3 2 1 6 1 13 1
+ZipSeis 0.08 1 2 1
+ExtractSGT 78.74 5 3 246480035 5 251872035 7 151648367 9 183902709 11 132284209
+SeismogramSynthesis 22.5 7 1 24000 4 24000 5 1 9 1 14 1 18 1 22 1
+PeakValCalcOkaya 0.87 0
+SeismogramSynthesis 42.67 4 1 24000 6 24000 7 1 13 1
+PeakValCalcOkaya 1.25 1 2 1
+SeismogramSynthesis 31.02 3 1 24000 2 1 8 24000
+PeakValCalcOkaya 0.89 2 10 1 13 1
+SeismogramSynthesis 49.04 4 1 24000 10 24000 11 1 13 1
+PeakValCalcOkaya 0.92 1 2 1
+SeismogramSynthesis 37.9 3 1 24000 2 1 12 24000
+PeakValCalcOkaya 1.33 2 13 1 15 1
+ExtractSGT 193.19 8 14 344646898 16 158308118 18 338212401 20 342563104 22 333253144 24 233061808 26 116335203 28 254077919
+SeismogramSynthesis 55.92 4 1 24000 13 1 15 24000 16 1
+PeakValCalcOkaya 1.29 1 2 1
+SeismogramSynthesis 44.64 3 1 24000 2 1 17 24000
+PeakValCalcOkaya 0.65 2 13 1 19 1
+SeismogramSynthesis 61.96 4 1 24000 13 1 19 24000 20 1
+PeakValCalcOkaya 0.93 1 2 1
+SeismogramSynthesis 28.78 3 1 24000 2 1 21 24000
+PeakValCalcOkaya 0.63 2 13 1 23 1
+SeismogramSynthesis 38.12 4 1 24000 13 1 23 24000 24 1
+PeakValCalcOkaya 1.5 1 2 1
+SeismogramSynthesis 50.78 3 1 24000 2 1 25 24000
+PeakValCalcOkaya 1.31 2 13 1 27 1
+SeismogramSynthesis 40.8 10 0 1 1 24000 8 1 12 1 17 1 21 1 25 1 27 24000 28 1 29 1
+PeakValCalcOkaya 1.27 1 2 1
+SeismogramSynthesis 38.94 3 1 24000 13 1 29 24000
+PeakValCalcOkaya 0.67 2 0 1 13 1

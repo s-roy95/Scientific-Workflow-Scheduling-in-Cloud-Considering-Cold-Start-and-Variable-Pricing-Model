@@ -1,0 +1,4 @@
+3 0.9 345
+StormDetection 35 1 1 1024
+RemoveAttributes 66 1 2 1024
+SpatialClustering 129 0
