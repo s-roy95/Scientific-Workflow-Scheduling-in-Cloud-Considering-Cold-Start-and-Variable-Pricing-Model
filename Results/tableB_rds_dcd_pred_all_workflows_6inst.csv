@@ -1,0 +1,4 @@
+"workflow","policy","instances","reserved_cost","ondemand_cost","spot_cost","total_cost","reward","profit","deadlines_missed","cold_starts","warm_or_reuse","total_cold_start_s","measured_transfer_s","measured_compute_s","transfer_share_pct","spot_revocations","tasks_on_reserved","tasks_on_ondemand","tasks_on_spot"
+"log_processing","rds_dcd_pred","6","0.3611","0.4814","0.0433","0.8859","1.1203","0.2344","4","2","6","2.11","0.97","20.50","4.51","3","4","0","4"
+"video_analytics","rds_dcd_pred","6","0.2024","0.2167","0.0311","0.4502","2.2577","1.8075","0","5","19","8.23","0.22","67.86","0.33","3","11","4","9"
+"video_processing","rds_dcd_pred","6","0.0701","0.3661","0.0000","0.4362","2.3366","1.9004","0","11","13","21.80","0.66","148.77","0.44","9","2","5","17"

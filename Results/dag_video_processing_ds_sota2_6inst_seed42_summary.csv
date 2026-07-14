@@ -1,0 +1,2 @@
+workflow,policy,instances,reserved_cost,ondemand_cost,spot_cost,total_cost,reward,profit,deadlines_missed,cold_starts,warm_or_reuse,total_cold_start_s,measured_transfer_s,measured_compute_s,transfer_share_pct,spot_revocations,tasks_on_reserved,tasks_on_ondemand,tasks_on_spot
+video_processing,ds_sota2,6,0.0000,1.5076,0.0000,1.5076,2.3327,0.8251,1,8,16,17.98,1.57,249.40,0.63,6,0,11,13

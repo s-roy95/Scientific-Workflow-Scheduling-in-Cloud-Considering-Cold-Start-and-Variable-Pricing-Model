@@ -1,0 +1,2 @@
+workflow,policy,instances,reserved_cost,ondemand_cost,spot_cost,total_cost,reward,profit,deadlines_missed,cold_starts,warm_or_reuse,total_cold_start_s,measured_transfer_s,measured_compute_s,transfer_share_pct,spot_revocations,tasks_on_reserved,tasks_on_ondemand,tasks_on_spot
+staircase_chain,ds_sota2,6,0.0000,0.6233,0.0000,0.6233,2.8393,2.2161,0,5,247,8.29,2.22,52.82,4.03,2,0,188,64
