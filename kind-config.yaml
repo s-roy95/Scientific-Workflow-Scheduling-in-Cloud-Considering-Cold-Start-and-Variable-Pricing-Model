@@ -1,0 +1,38 @@
+# 1 control plane + 3 workers, one per pricing pool.
+# extraMounts give every node the SAME /data directory (inside the
+# Docker Desktop VM), so inter-task files really cross node boundaries
+# through shared storage -- like S3/NFS in a real deployment.
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+  - role: control-plane
+  - role: worker
+    kubeadmConfigPatches:
+      - |
+        kind: JoinConfiguration
+        nodeRegistration:
+          kubeletExtraArgs:
+            node-labels: "pool=reserved"
+    extraMounts:
+      - hostPath: /var/lib/dcd-shared
+        containerPath: /data
+  - role: worker
+    kubeadmConfigPatches:
+      - |
+        kind: JoinConfiguration
+        nodeRegistration:
+          kubeletExtraArgs:
+            node-labels: "pool=ondemand"
+    extraMounts:
+      - hostPath: /var/lib/dcd-shared
+        containerPath: /data
+  - role: worker
+    kubeadmConfigPatches:
+      - |
+        kind: JoinConfiguration
+        nodeRegistration:
+          kubeletExtraArgs:
+            node-labels: "pool=spot"
+    extraMounts:
+      - hostPath: /var/lib/dcd-shared
+        containerPath: /data
